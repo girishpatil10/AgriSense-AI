@@ -1,0 +1,139 @@
+# ── Python / Backend ──────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Environment files (keep .env.example)
+.env
+agriai-backend/.env
+agriai-frontend/.env
+.env.local
+.env.*.local
+
+# Pytest / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+coverage.xml
+*.cover
+
+# Mypy / type checkers
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+*.egg
+.eggs/
+
+# Hatch / pip
+.hatch/
+pip-wheel-metadata/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# ML model cache (HuggingFace/Large weights)
+/models/
+/agriai-backend/artifacts/
+/agriai-backend/app/data/models/
+/agriai-frontend/artifacts/
+*.joblib
+*.pkl
+*.pt
+*.pth
+*.bin
+.cache/huggingface/
+
+# ── Node.js / Frontend ────────────────────────────────────────────────────────
+node_modules/
+agriai-frontend/node_modules/
+
+# Build output
+agriai-frontend/dist/
+agriai-frontend/build/
+agriai-frontend/.next/
+agriai-frontend/out/
+
+# Vite cache
+agriai-frontend/.vite/
+
+# pnpm
+pnpm-debug.log*
+
+# npm / yarn logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.yarn/cache
+.yarn/unplugged
+.yarn/build-state.yml
+.yarn/install-state.gz
+
+# TypeScript build info
+*.tsbuildinfo
+
+# ── Docker ────────────────────────────────────────────────────────────────────
+# Keep docker-compose.yml tracked; ignore local overrides
+docker-compose.override.yml
+docker-compose.local.yml
+
+# Docker volumes (if mounted locally)
+postgres_data/
+redis_data/
+
+# IDEs / Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# AI Assistant Data
+.gemini/
+.antigravity/
+.claude/
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# ── Logs ──────────────────────────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Alembic ───────────────────────────────────────────────────────────────────
+# Keep alembic.ini tracked (no secrets in it)
+# Ignore any local alembic overrides
+alembic_local.ini
+
+# ── Secrets / Keys ────────────────────────────────────────────────────────────
+*.pem
+*.key
+*.p12
+*.pfx
+secrets/
+
+# Scratch scripts
+flush_redis.py
+
+.claude/
+
+.git-old/

@@ -1,0 +1,32 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "agriai-backend"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi==0.115.5",
+    "uvicorn[standard]==0.32.1",
+    "sqlalchemy[asyncio]==2.0.36",
+    "asyncpg==0.30.0",
+    "python-jose[cryptography]==3.3.0",
+    "bcrypt==4.2.1",
+    "pydantic-settings==2.6.1",
+    "redis==5.2.0",
+    "alembic==1.14.0",
+    "email-validator==2.2.0",
+    "transformers",
+    "torch",
+    "langchain",
+    "langchain-community",
+    "langchain-openai",
+    "langgraph",
+    "Pillow==11.0.0",
+    "python-multipart==0.0.17",
+    "httpx==0.27.2"
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["app"]

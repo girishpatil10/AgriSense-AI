@@ -1,0 +1,40 @@
+{
+  "crops": [
+    {
+      "name": "Rice",
+      "ideal_soil": ["Clay", "Loam"],
+      "npk": {"N": [80, 120], "P": [40, 60], "K": [40, 60]},
+      "ph": [5.5, 7.0],
+      "season": ["Kharif"],
+      "moisture": [0.6, 0.9],
+      "rotation_penalty_crops": ["Rice"]
+    },
+    {
+      "name": "Wheat",
+      "ideal_soil": ["Loam", "Sandy Loam"],
+      "npk": {"N": [100, 150], "P": [50, 70], "K": [40, 60]},
+      "ph": [6.0, 7.5],
+      "season": ["Rabi"],
+      "moisture": [0.4, 0.6],
+      "rotation_penalty_crops": ["Wheat"]
+    },
+    {
+      "name": "Maize",
+      "ideal_soil": ["Loam", "Clay Loam"],
+      "npk": {"N": [120, 180], "P": [60, 80], "K": [40, 60]},
+      "ph": [5.8, 7.0],
+      "season": ["Kharif", "Rabi"],
+      "moisture": [0.5, 0.7],
+      "rotation_penalty_crops": ["Maize"]
+    },
+    {
+      "name": "Cotton",
+      "ideal_soil": ["Black", "Alluvial"],
+      "npk": {"N": [100, 150], "P": [50, 80], "K": [50, 80]},
+      "ph": [6.0, 8.0],
+      "season": ["Kharif"],
+      "moisture": [0.4, 0.6],
+      "rotation_penalty_crops": ["Cotton"]
+    }
+  ]
+}

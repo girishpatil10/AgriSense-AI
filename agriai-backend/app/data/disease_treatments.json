@@ -1,0 +1,44 @@
+{
+  "Apple___Apple_scab": {
+    "scientific_name": "Venturia inaequalis",
+    "chemical": "Fungicides containing captan, mancozeb, or myclobutanil.",
+    "biological": "Bacillus subtilis-based products.",
+    "cultural": "Prune affected branches, remove fallen leaves, and ensure good air circulation."
+  },
+  "Apple___Black_rot": {
+    "scientific_name": "Botryosphaeria obtusa",
+    "chemical": "Captan or sulfur-based fungicides.",
+    "biological": "Copper-based sprays in early spring.",
+    "cultural": "Remove mummified fruit and cankered limbs."
+  },
+  "Corn_(maize)___Common_rust_": {
+    "scientific_name": "Puccinia sorghi",
+    "chemical": "Foliar fungicides like pyraclostrobin or azoxystrobin.",
+    "biological": "No highly effective biological control for large-scale rust.",
+    "cultural": "Use resistant hybrids and practice crop rotation."
+  },
+  "Tomato___Bacterial_spot": {
+    "scientific_name": "Xanthomonas perforans",
+    "chemical": "Copper-based sprays.",
+    "biological": "Actigard (systemic acquired resistance inducer).",
+    "cultural": "Avoid overhead irrigation, use clean seeds."
+  },
+  "Tomato___Late_blight": {
+    "scientific_name": "Phytophthora infestans",
+    "chemical": "Chlorothalonil, copper, or mancozeb.",
+    "biological": "Serenade Garden (Bacillus subtilis).",
+    "cultural": "Remove infected plants immediately, improve drainage."
+  },
+  "Tomato___healthy": {
+    "scientific_name": "Solanum lycopersicum",
+    "chemical": "None needed.",
+    "biological": "None needed.",
+    "cultural": "Maintain regular watering and fertilization."
+  },
+  "Grape___Black_rot": {
+    "scientific_name": "Guignardia bidwellii",
+    "chemical": "Mancozeb or myclobutanil.",
+    "biological": "None highly effective.",
+    "cultural": "Sanitation (remove old mummies), pruning."
+  }
+}

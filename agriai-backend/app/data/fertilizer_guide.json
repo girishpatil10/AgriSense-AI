@@ -1,0 +1,47 @@
+{
+  "Urea": {
+    "base_dosage_kg_per_hectare": 100,
+    "application_method": "Broadcasting",
+    "notes": "Apply in splits. Incorporate into soil to minimize volatilization losses."
+  },
+  "DAP": {
+    "base_dosage_kg_per_hectare": 120,
+    "application_method": "Basal Application",
+    "notes": "Apply near root zone during sowing for optimal phosphorus uptake."
+  },
+  "MOP": {
+    "base_dosage_kg_per_hectare": 60,
+    "application_method": "Top Dressing",
+    "notes": "Apply in splits if soil is sandy. Avoid direct contact with seeds."
+  },
+  "10-26-26": {
+    "base_dosage_kg_per_hectare": 150,
+    "application_method": "Basal Application",
+    "notes": "Use as a basal dose. Good for crops requiring high P and K."
+  },
+  "14-35-14": {
+    "base_dosage_kg_per_hectare": 130,
+    "application_method": "Basal Application",
+    "notes": "Excellent for root development. Apply at sowing."
+  },
+  "17-17-17": {
+    "base_dosage_kg_per_hectare": 140,
+    "application_method": "Broadcasting",
+    "notes": "Balanced NPK fertilizer. Apply equally during the crop cycle."
+  },
+  "20-20": {
+    "base_dosage_kg_per_hectare": 110,
+    "application_method": "Basal Application",
+    "notes": "Good for initial growth. Lacks potassium, so supplement if soil is K deficient."
+  },
+  "28-28": {
+    "base_dosage_kg_per_hectare": 100,
+    "application_method": "Basal Application",
+    "notes": "High concentration of N and P. Useful for rapid early growth."
+  },
+  "default": {
+    "base_dosage_kg_per_hectare": 100,
+    "application_method": "Broadcasting",
+    "notes": "Follow standard agricultural practices for application."
+  }
+}
